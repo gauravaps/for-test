@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: green;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1>this is new testing progrma</h1> -->
+
+    <div>initializing hacking...</div>
+
+    <script>
+        const additem=async(items)=>{
+            console.log(items);
+            await randomdelay()
+            let div=document.createElement('div')
+            div.innerHTML= '<<>>>>>' + items
+            document.body.append( div)
+
+        
+}           
+    const randomdelay=async()=>{
+        return new Promise((resolve,reject)=>{
+            timeout= Math.random()*6
+            setTimeout(()=>{
+                resolve()
+            },timeout*1000)
+        })
+    }
+
+
+        let text =['initializing Hacking...','searching for account','machine find your acount',
+            'access your account ','waiting for a while','now your account is totally hacked']
+
+            for(let items of text){
+                additem(items)
+            } 
+            
+
+
+    </script>
+</body>
+</html>
